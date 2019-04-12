@@ -1,18 +1,12 @@
 {
   "prompts": {
-    "projectName": {
-      "type": "string",
-      "required": false,
-      "default": "my-webpack-project",
-      "message": "Project Name"
-    },
     "userName": {
-      "type": "string",
+      "type": "input",
       "required": false,
       "message": "Enter your github user name if you have any"
     },
     "description": {
-      "type": "string",
+      "type": "input",
       "required": true,
       "default": "My awesome ES6 webpack project",
       "message": "Project Description"
