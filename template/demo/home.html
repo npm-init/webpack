@@ -1,0 +1,25 @@
+<h2>MyClass</h2>
+
+<p>
+  This is MyClass saying "<span id="hello"></span>".
+</p>
+
+<h3>Attributes</h3>
+<ul>
+  <li><b>foo</b>: Default null. xxxxxxxxxxxxxxxx.</li>
+  <li><b>bar</b>: Default null. xxxxxxxxxxxxxxxx.</li>
+</ul>
+
+<h3>Example</h3>
+<div class="x1">
+  This is html example
+</div>
+<style class="x1">
+  div.x1 { padding: 12px; border: 1px solid #ccc; }
+</style>
+<script class="x1">
+  document.querySelector('#hello').innerHTML = (new MyClass()).helloWorld();
+</script>
+<script>
+  showCode('div.x1', 'style.x1', 'script.x1', /example/g);
+</script>
